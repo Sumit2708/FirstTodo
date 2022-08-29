@@ -1,0 +1,41 @@
+.header {
+  height: 250;
+  padding-top: 50px;
+  text-align: center;
+}
+.card {
+  max-width: 15rem;
+  margin: 5px 5px 8px 10px;
+}
+.checkbox {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.cardflex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 200px;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+.btn:hover {
+  background-image: none;
+  background-color: #a995f2;
+}
+.datebtn:hover {
+  background-image: none;
+  background-color: rgb(255, 88, 88);
+}
+.desbtn:hover {
+  background-image: none;
+  background-color: #9ce79c;
+}
